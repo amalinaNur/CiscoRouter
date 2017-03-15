@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* layout */
+.scroll {
+    /* overflow to handle inner floating block */
+    width: 817px;
+    height: 435px;
+    overflow: scroll;
+}
+
+.nav{
+	list-style-type:none;
+	border:none;
+	padding-left:0px;
+	padding-right:0px;
+	height:400px;
+	width:100%;
+	background-color:beige;
+}
+
+
+.btn {
+    position: relative;
+    bottom: 170px;
+    left: 650px;
+}
+
+textarea#box
+{
+	background-color:#FEFAF3;
+	border:solid 1px;
+	resize:none;
+	width:430px;
+	height:300px;
+	display: block;
+	margin-left:10px;
+}
+
+.boxShow
+{
+	background-color:#FEFAF3;
+	border:solid 1px;
+	resize:none;
+	width:430px;
+	height:300px;
+	display: block;
+	margin-left:180px;
+}
+
+.boxIP
+{
+	background-color:#FEFAF3;
+	border:solid 1px;
+	resize:none;
+	width:700px;
+	height:300px;
+	display: block;
+	margin-left:80px;
+}
+
+.nav a{
+	text-align:center;
+	text-decoration:none;
+	color:black;
+	display:block;
+	border-top:solid #C66 1px;
+	padding:10px;
+	border-bottom:solid #C66 1px;
+	border-left:none;
+	border-right:none;
+	
+}
+
+.nav li:hover{
+	background-color: #C66;
+}
+
